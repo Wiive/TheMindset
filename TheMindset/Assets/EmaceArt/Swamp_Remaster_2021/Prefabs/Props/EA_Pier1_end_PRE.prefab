@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &22945670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 22945671}
+  - component: {fileID: 22945672}
+  m_Layer: 3
+  m_Name: Collision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &22945671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22945670}
+  m_LocalRotation: {x: 0.11398015, y: -0.9916884, z: -0.021060327, w: 0.05584939}
+  m_LocalPosition: {x: 0.24, y: 0.622, z: 0.103}
+  m_LocalScale: {x: 2.0010357, y: 1, z: 1.1484704}
+  m_Children: []
+  m_Father: {fileID: 4410484559205210}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -1.664, y: -173.361, z: -13.21}
+--- !u!64 &22945672
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22945670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2910319872626960813, guid: c8ca29d97df45bc449f7eaf457b3d209, type: 3}
 --- !u!1 &1593521461530894
 GameObject:
   m_ObjectHideFlags: 0
@@ -28,6 +73,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4024553273367096}
+  - {fileID: 22945671}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42,6 +88,7 @@ GameObject:
   - component: {fileID: 4024553273367096}
   - component: {fileID: 33500265702658744}
   - component: {fileID: 23576127141319038}
+  - component: {fileID: 653374872}
   m_Layer: 3
   m_Name: EA_Pier1_end
   m_TagString: Untagged
@@ -113,3 +160,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &653374872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975525047979612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5607055345637662620, guid: 72319510d946ec04cad1d75fc861de34, type: 3}
