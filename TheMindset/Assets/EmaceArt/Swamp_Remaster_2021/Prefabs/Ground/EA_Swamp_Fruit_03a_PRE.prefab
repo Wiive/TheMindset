@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8904368086367033581}
   - component: {fileID: 2515344643457363965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,6 +90,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!1 &6870745702050214053
@@ -103,7 +104,7 @@ GameObject:
   - component: {fileID: 6057933571498109471}
   - component: {fileID: 7187113790784267706}
   - component: {fileID: 4925027728430797168}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EA_Swamp_Fruit_03a_PRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,10 +145,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -172,3 +175,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
