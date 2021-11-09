@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7089981759277237335}
   - component: {fileID: 7089981759277237353}
   - component: {fileID: 7089981759277237334}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7089981759281271624}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Lines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7089981759321342905}
   - component: {fileID: 7089981759321342904}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Line (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7089981759328671122}
   - component: {fileID: 7089981759328671125}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Line (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,9 +400,10 @@ GameObject:
   - component: {fileID: 7089981759511587478}
   - component: {fileID: 7089981759511587479}
   - component: {fileID: 7089981759511587476}
-  m_Layer: 0
+  - component: {fileID: 7978254528147344903}
+  m_Layer: 6
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: PuzzleFrame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -485,6 +486,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &7978254528147344903
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7089981759511587474}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.1179874
+  m_Center: {x: -0.014032458, y: -0.3112457, z: 7.188022}
 --- !u!1 &7089981760136457437
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,7 +509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7089981760136457436}
   - component: {fileID: 7089981760136457439}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Line (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7089981760276021904}
   - component: {fileID: 7089981760276021907}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -767,7 +781,7 @@ GameObject:
   - component: {fileID: 7089981760446717280}
   - component: {fileID: 7089981760446717281}
   - component: {fileID: 7089981760446717294}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: StartImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -886,7 +900,7 @@ GameObject:
   - component: {fileID: 7089981760771003802}
   - component: {fileID: 7089981760771003804}
   - component: {fileID: 7089981760771003805}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: EndImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -960,7 +974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7089981760924835434}
   - component: {fileID: 7089981760924835437}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Line (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1095,7 +1109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7089981761055769991}
   - component: {fileID: 7089981761055769990}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Line (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1234,13 +1248,13 @@ GameObject:
   - component: {fileID: 7089981761089276948}
   - component: {fileID: 7089981761089276968}
   - component: {fileID: 7089981761089276969}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: CursorCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7089981761089276949
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1346,7 +1360,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7089981761089276946}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
   m_Name: 
@@ -1365,7 +1379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7089981761195915036}
   - component: {fileID: 7089981761195915039}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Line (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1500,7 +1514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7089981761198751372}
   - component: {fileID: 7089981761198751375}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Line (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1636,9 +1650,9 @@ GameObject:
   - component: {fileID: 7089981761360143166}
   - component: {fileID: 7089981761360143153}
   - component: {fileID: 1884116248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PuzzleFrame
-  m_TagString: Untagged
+  m_TagString: PuzzleFrame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1671,8 +1685,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Cube","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 7089981759511587474}
 --- !u!114 &1884116248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1701,7 +1716,7 @@ GameObject:
   - component: {fileID: 7089981761386902118}
   - component: {fileID: 7089981761386902119}
   - component: {fileID: 7089981761386902116}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
